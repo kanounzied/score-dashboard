@@ -1,0 +1,28 @@
+section{
+    width: 90%;
+    height: 22vh;
+    background-color: var(--aero-red);
+    background-image: url("./wave-background.webp");
+    background-blend-mode: luminosity;
+    background-size: 120%;
+    background-position-x: center;
+    background-position-y: 80%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 9px 22px 7px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 0px 9px 22px 7px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 9px 22px 7px rgba(0,0,0,0.7);
+}
+section h2, section h3{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+section h2{
+    font-size: 5vw;
+}
